@@ -1,6 +1,13 @@
 ﻿using Microsoft.Extensions.Logging;
 
+
+
 namespace SmartHomeDashboardP;
+
+using SmartHomeDashboardP.Views;
+using SmartHomeDashboardP.ViewModels;
+
+
 
 public static class MauiProgram
 {
@@ -17,8 +24,11 @@ public static class MauiProgram
 
 #if DEBUG
 		builder.Logging.AddDebug();
+        builder.Services.AddSingleton<MainViewModel>();
+        builder.Services.AddSingleton<DashboardPage>();
+        builder.Services.AddSingleton<SettingsPage>();
 #endif
 
-		return builder.Build();
+        return builder.Build();
 	}
 }
