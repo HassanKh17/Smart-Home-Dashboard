@@ -6,6 +6,7 @@ namespace SmartHomeDashboardP;
 
 using SmartHomeDashboardP.Views;
 using SmartHomeDashboardP.ViewModels;
+using SmartHomeDashboardP.Services;
 
 
 
@@ -27,6 +28,8 @@ public static class MauiProgram
         builder.Services.AddSingleton<MainViewModel>();
         builder.Services.AddSingleton<DashboardPage>();
         builder.Services.AddSingleton<SettingsPage>();
+        builder.Services.AddSingleton<DeviceSimulationService>();
+
 #endif
 
         return builder.Build();
