@@ -11,9 +11,6 @@
         <member name="P:SmartHomeDashboardP.ViewModels.MainViewModel.Title">
             <inheritdoc cref="F:SmartHomeDashboardP.ViewModels.MainViewModel.title"/>
         </member>
-        <member name="P:SmartHomeDashboardP.ViewModels.MainViewModel.Devices">
-            <inheritdoc cref="F:SmartHomeDashboardP.ViewModels.MainViewModel.devices"/>
-        </member>
         <member name="F:SmartHomeDashboardP.ViewModels.MainViewModel.goToSettingsCommand">
             <summary>The backing field for <see cref="P:SmartHomeDashboardP.ViewModels.MainViewModel.GoToSettingsCommand"/>.</summary>
         </member>
@@ -29,9 +26,6 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Title">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Title" generated properties.</summary>
         </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Devices">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Devices" generated properties.</summary>
-        </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
             <summary>
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
@@ -40,9 +34,6 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Title">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Title" generated properties.</summary>
-        </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Devices">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Devices" generated properties.</summary>
         </member>
     </members>
 </doc>
