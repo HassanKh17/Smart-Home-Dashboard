@@ -7,8 +7,7 @@ namespace SmartHomeDashboardP;
 using SmartHomeDashboardP.Views;
 using SmartHomeDashboardP.ViewModels;
 using SmartHomeDashboardP.Services;
-
-
+using Microcharts.Maui;
 
 public static class MauiProgram
 {
@@ -29,6 +28,7 @@ public static class MauiProgram
         builder.Services.AddSingleton<DashboardPage>();
         builder.Services.AddSingleton<SettingsPage>();
         builder.Services.AddSingleton<DeviceSimulationService>();
+		builder.UseMicrocharts();
 
 #endif
 

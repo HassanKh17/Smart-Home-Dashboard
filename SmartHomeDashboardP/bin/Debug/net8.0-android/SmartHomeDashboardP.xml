@@ -4,12 +4,30 @@
         <name>SmartHomeDashboardP</name>
     </assembly>
     <members>
+        <member name="T:SmartHomeDashboardP.Models.SmartDevice">
+            <inheritdoc/>
+        </member>
+        <member name="P:SmartHomeDashboardP.Models.SmartDevice.Name">
+            <inheritdoc cref="F:SmartHomeDashboardP.Models.SmartDevice.name"/>
+        </member>
+        <member name="P:SmartHomeDashboardP.Models.SmartDevice.IsOn">
+            <inheritdoc cref="F:SmartHomeDashboardP.Models.SmartDevice.isOn"/>
+        </member>
+        <member name="P:SmartHomeDashboardP.Models.SmartDevice.Icon">
+            <inheritdoc cref="F:SmartHomeDashboardP.Models.SmartDevice.icon"/>
+        </member>
+        <member name="P:SmartHomeDashboardP.Models.SmartDevice.Status">
+            <inheritdoc cref="F:SmartHomeDashboardP.Models.SmartDevice.status"/>
+        </member>
         <member name="T:SmartHomeDashboardP.ViewModels.MainViewModel">
             <inheritdoc/>
             <inheritdoc/>
         </member>
         <member name="P:SmartHomeDashboardP.ViewModels.MainViewModel.Title">
             <inheritdoc cref="F:SmartHomeDashboardP.ViewModels.MainViewModel.title"/>
+        </member>
+        <member name="P:SmartHomeDashboardP.ViewModels.MainViewModel.EnergyUsageChart">
+            <inheritdoc cref="F:SmartHomeDashboardP.ViewModels.MainViewModel.energyUsageChart"/>
         </member>
         <member name="F:SmartHomeDashboardP.ViewModels.MainViewModel.goToSettingsCommand">
             <summary>The backing field for <see cref="P:SmartHomeDashboardP.ViewModels.MainViewModel.GoToSettingsCommand"/>.</summary>
@@ -23,8 +41,23 @@
             for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
             </summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Name">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Name" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsOn">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsOn" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Icon">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Icon" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Status">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Status" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Title">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Title" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.EnergyUsageChart">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "EnergyUsageChart" generated properties.</summary>
         </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
             <summary>
@@ -32,8 +65,23 @@
             for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
             </summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Name">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Name" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsOn">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsOn" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Icon">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Icon" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Status">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Status" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Title">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Title" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.EnergyUsageChart">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "EnergyUsageChart" generated properties.</summary>
         </member>
     </members>
 </doc>

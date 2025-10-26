@@ -4,15 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CommunityToolkit.Mvvm.Input;
+using CommunityToolkit.Mvvm.ComponentModel; 
 
 namespace SmartHomeDashboardP.Models;
 
-public class SmartDevice
+public partial class SmartDevice : ObservableObject
 {
-    public string Name { get; set; } = string.Empty;
-    public bool IsOn { get; set; }
-    public string Icon { get; set; } = string.Empty;
-    public string Status { get; set; } = string.Empty;
+    [ObservableProperty]
+    private string name = string.Empty;
+
+    [ObservableProperty]
+    private bool isOn;
+
+    [ObservableProperty]
+    private string icon = string.Empty;
+
+    [ObservableProperty]
+    private string status = string.Empty;
 
     public IRelayCommand? ToggleCommand { get; set; }
 }

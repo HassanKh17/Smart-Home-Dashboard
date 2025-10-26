@@ -1,52 +1,150 @@
-﻿using System.Collections.ObjectModel;
+﻿using Microcharts;
+using SkiaSharp;
+using System.Collections.ObjectModel;
+using System.Timers;
+using SmartHomeDashboardP.Models;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using SmartHomeDashboardP.Models;
 
 namespace SmartHomeDashboardP.ViewModels;
 
 public partial class MainViewModel : ObservableObject
 {
-    // Title for the dashboard
     [ObservableProperty]
     private string title = "Smart Home Dashboard";
 
-    // ✅ Single collection of devices
+    // ✅ Nullable chart prevents null-reference during startup
+    [ObservableProperty]
+    private Chart? energyUsageChart;
+
     public ObservableCollection<SmartDevice> Devices { get; } = new();
+
+    private readonly System.Timers.Timer _updateTimer;
+    private readonly Random _rand = new();
 
     public MainViewModel()
     {
-        // ✅ Initialize sample devices
-        Devices.Add(new SmartDevice { Name = "Living Room Light", Status = "Off" });
-        Devices.Add(new SmartDevice { Name = "Thermostat", Status = "22°C" });
-        Devices.Add(new SmartDevice { Name = "Front Door Lock", Status = "Locked" });
-
-        // ✅ Wire toggle commands
-        foreach (var device in Devices)
+        try
         {
-            device.ToggleCommand = new RelayCommand(() => ToggleDevice(device));
+            // ✅ Initialize devices
+            Devices.Add(new SmartDevice { Name = "Living Room Light", Status = "Off", Icon = "💡" });
+            Devices.Add(new SmartDevice { Name = "Thermostat", Status = "22°C", Icon = "🌡️" });
+            Devices.Add(new SmartDevice { Name = "Front Door Lock", Status = "Locked", Icon = "🔒" });
+
+            // ✅ Wire toggle commands
+            foreach (var device in Devices)
+                device.ToggleCommand = new RelayCommand(() => ToggleDevice(device));
+
+            // ✅ Initialize chart once UI is ready
+            MainThread.BeginInvokeOnMainThread(UpdateEnergyUsageChart);
+
+            // ✅ Setup safe background timer
+            _updateTimer = new System.Timers.Timer(3000)
+            {
+                AutoReset = true,
+                Enabled = false // start later to avoid race condition
+            };
+
+            _updateTimer.Elapsed += (_, _) =>
+            {
+                try
+                {
+                    // Always update chart on main thread
+                    MainThread.BeginInvokeOnMainThread(UpdateEnergyUsageChart);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"[Timer Error] {ex.Message}");
+                }
+            };
+
+            // 🕒 Delay start: ensures page + bindings are ready before timer fires
+            Application.Current?.Dispatcher.DispatchDelayed(TimeSpan.FromSeconds(3), () =>
+            {
+                try
+                {
+                    _updateTimer.Start();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"[Timer Start Error] {ex.Message}");
+                }
+            });
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"[Init Error] {ex.Message}");
         }
     }
 
-    // ✅ Toggle device states
+    // ✅ Toggle Device State
     private void ToggleDevice(SmartDevice device)
     {
-        if (device == null) return;
+        try
+        {
+            if (device.Name.Contains("Light"))
+                device.Status = device.Status == "On" ? "Off" : "On";
+            else if (device.Name.Contains("Thermostat"))
+                device.Status = device.Status == "22°C" ? "24°C" : "22°C";
+            else if (device.Name.Contains("Lock"))
+                device.Status = device.Status == "Locked" ? "Unlocked" : "Locked";
 
-        if (device.Name.Contains("Light"))
-            device.Status = device.Status == "On" ? "Off" : "On";
-
-        else if (device.Name.Contains("Thermostat"))
-            device.Status = device.Status == "22°C" ? "24°C" : "22°C";
-
-        else if (device.Name.Contains("Lock"))
-            device.Status = device.Status == "Locked" ? "Unlocked" : "Locked";
+            // Refresh chart immediately
+            MainThread.BeginInvokeOnMainThread(UpdateEnergyUsageChart);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"[Toggle Error] {ex.Message}");
+        }
     }
 
-    // ✅ Navigation to settings
+    // ✅ Chart Update Logic (Main Thread Safe)
+    private void UpdateEnergyUsageChart()
+    {
+        try
+        {
+            if (Devices == null || Devices.Count == 0)
+                return;
+
+            int baseLoad = 100;
+            int lights = Devices.Count(d => d.Name.Contains("Light") && d.Status == "On") * 40;
+            int thermostat = Devices.Count(d => d.Name.Contains("Thermostat")) * 20;
+            int locks = Devices.Count(d => d.Name.Contains("Lock") && d.Status == "Unlocked") * 5;
+            int total = baseLoad + lights + thermostat + locks + _rand.Next(0, 30);
+
+            var entries = new[]
+            {
+                new ChartEntry(baseLoad){ Label="Base", ValueLabel=$"{baseLoad}W", Color=SKColor.Parse("#90CAF9") },
+                new ChartEntry(lights){ Label="Lights", ValueLabel=$"{lights}W", Color=SKColor.Parse("#FFD54F") },
+                new ChartEntry(thermostat){ Label="Thermostat", ValueLabel=$"{thermostat}W", Color=SKColor.Parse("#FF8A65") },
+                new ChartEntry(locks){ Label="Locks", ValueLabel=$"{locks}W", Color=SKColor.Parse("#A5D6A7") },
+                new ChartEntry(total){ Label="Total", ValueLabel=$"{total}W", Color=SKColor.Parse("#42A5F5") }
+            };
+
+            EnergyUsageChart = new DonutChart
+            {
+                Entries = entries,
+                BackgroundColor = SKColor.Parse("#FFFFFF"),
+                HoleRadius = 0.5f,
+                LabelTextSize = 32
+            };
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"[Chart Update Error] {ex.Message}");
+        }
+    }
+
     [RelayCommand]
     private async Task GoToSettings()
     {
-        await Shell.Current.GoToAsync(nameof(Views.SettingsPage));
+        try
+        {
+            await Shell.Current.GoToAsync(nameof(Views.SettingsPage));
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"[Navigation Error] {ex.Message}");
+        }
     }
 }

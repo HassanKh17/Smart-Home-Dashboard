@@ -1,6 +1,7 @@
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:viewmodels="clr-namespace:SmartHomeDashboardP.ViewModels"
+             xmlns:microcharts="clr-namespace:Microcharts.Maui;assembly=Microcharts.Maui"
              x:Class="SmartHomeDashboardP.Views.DashboardPage"
              Title="Smart Home Dashboard">
 
@@ -10,35 +11,30 @@
 
     <ScrollView>
         <VerticalStackLayout Padding="20" Spacing="15">
-
-            <!-- Title -->
             <Label Text="{Binding Title}"
                    FontSize="28"
-                   HorizontalOptions="Center"
-                   TextColor="DodgerBlue" />
+                   TextColor="DodgerBlue"
+                   HorizontalOptions="Center" />
 
-            <!-- Device List -->
             <CollectionView ItemsSource="{Binding Devices}">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <Frame Padding="15" Margin="5" BackgroundColor="#1e1e1e" CornerRadius="15">
+                        <Frame Padding="15" BackgroundColor="#1E1E1E" CornerRadius="20">
                             <VerticalStackLayout>
-                                <Label Text="{Binding Name}" FontSize="20" TextColor="White"/>
-                                <Label Text="{Binding Status}" FontSize="14" TextColor="LightGray"/>
-                                <Button Text="Toggle" Command="{Binding ToggleCommand}" />
+                                <Label Text="{Binding Icon}" FontSize="30" HorizontalOptions="Center"/>
+                                <Label Text="{Binding Name}" FontSize="18" TextColor="White" HorizontalOptions="Center"/>
+                                <Label Text="{Binding Status}" FontSize="14" TextColor="LightGray" HorizontalOptions="Center"/>
+                                <Button Text="Toggle" Command="{Binding ToggleCommand}" BackgroundColor="#673AB7" TextColor="White"/>
                             </VerticalStackLayout>
                         </Frame>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
 
-            <!-- Graph Placeholder -->
-            <Frame CornerRadius="20" Padding="15" BackgroundColor="#2e2e2e">
-                <Label Text="Energy Usage Graph (coming soon...)" 
-                       HorizontalOptions="Center" 
-                       TextColor="LightGray"/>
+            <!-- ✅ Energy Chart -->
+            <Frame BackgroundColor="#333" CornerRadius="25" Padding="10" HeightRequest="250">
+                <microcharts:ChartView Chart="{Binding EnergyUsageChart}" />
             </Frame>
-
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
