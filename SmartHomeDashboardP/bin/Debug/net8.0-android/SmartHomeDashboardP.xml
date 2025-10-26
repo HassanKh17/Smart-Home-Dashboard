@@ -61,6 +61,32 @@
         <member name="P:SmartHomeDashboardP.ViewModels.MainViewModel.GoToHistoryCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:SmartHomeDashboardP.ViewModels.MainViewModel.GoToHistory"/>.</summary>
         </member>
+        <member name="T:SmartHomeDashboardP.ViewModels.SettingsViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:SmartHomeDashboardP.ViewModels.SettingsViewModel.UpdateIntervalSeconds">
+            <inheritdoc cref="F:SmartHomeDashboardP.ViewModels.SettingsViewModel.updateIntervalSeconds"/>
+        </member>
+        <member name="P:SmartHomeDashboardP.ViewModels.SettingsViewModel.IsDarkTheme">
+            <inheritdoc cref="F:SmartHomeDashboardP.ViewModels.SettingsViewModel.isDarkTheme"/>
+        </member>
+        <member name="P:SmartHomeDashboardP.ViewModels.SettingsViewModel.EnableSimulation">
+            <inheritdoc cref="F:SmartHomeDashboardP.ViewModels.SettingsViewModel.enableSimulation"/>
+        </member>
+        <member name="F:SmartHomeDashboardP.ViewModels.SettingsViewModel.saveCommand">
+            <summary>The backing field for <see cref="P:SmartHomeDashboardP.ViewModels.SettingsViewModel.SaveCommand"/>.</summary>
+        </member>
+        <member name="P:SmartHomeDashboardP.ViewModels.SettingsViewModel.SaveCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:SmartHomeDashboardP.ViewModels.SettingsViewModel.Save"/>.</summary>
+        </member>
+        <member name="F:SmartHomeDashboardP.ViewModels.SettingsViewModel.goBackCommand">
+            <summary>The backing field for <see cref="P:SmartHomeDashboardP.ViewModels.SettingsViewModel.GoBackCommand"/>.</summary>
+        </member>
+        <member name="P:SmartHomeDashboardP.ViewModels.SettingsViewModel.GoBackCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:SmartHomeDashboardP.ViewModels.SettingsViewModel.GoBack"/>.</summary>
+        </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
             <summary>
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
@@ -94,6 +120,15 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.EnergyUsageChart">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "EnergyUsageChart" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.UpdateIntervalSeconds">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "UpdateIntervalSeconds" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsDarkTheme">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsDarkTheme" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.EnableSimulation">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "EnableSimulation" generated properties.</summary>
+        </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
             <summary>
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
@@ -126,6 +161,15 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.EnergyUsageChart">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "EnergyUsageChart" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.UpdateIntervalSeconds">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "UpdateIntervalSeconds" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsDarkTheme">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsDarkTheme" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.EnableSimulation">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "EnableSimulation" generated properties.</summary>
         </member>
     </members>
 </doc>

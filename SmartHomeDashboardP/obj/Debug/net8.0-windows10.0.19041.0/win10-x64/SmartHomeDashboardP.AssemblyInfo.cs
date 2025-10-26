@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartHomeDashboardP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+eba40629115b7e3554bf4d4ce2c48ce43e80b5ef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+4011e45f0203710b7d7f172a9165b8acb00d8ad0")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartHomeDashboardP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartHomeDashboardP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

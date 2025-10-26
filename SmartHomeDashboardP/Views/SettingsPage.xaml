@@ -1,14 +1,52 @@
-<ContentPage
-    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    x:Class="SmartHomeDashboardP.Views.SettingsPage"
-    Title="Settings">
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:SmartHomeDashboardP.ViewModels"
+             x:Class="SmartHomeDashboardP.Views.SettingsPage"
+             Title="Settings">
 
-    <VerticalStackLayout Padding="20">
-        <Label Text="⚙️ Settings"
-               FontSize="24"
-               HorizontalOptions="Center" />
-        <Label Text="Simulation and theme settings will appear here."
-               HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <ContentPage.BindingContext>
+        <viewmodels:SettingsViewModel />
+    </ContentPage.BindingContext>
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+
+            <Label Text="⚙️ App Settings"
+                   FontSize="26"
+                   TextColor="DodgerBlue"
+                   HorizontalOptions="Center" />
+
+            <!-- Update Interval -->
+            <Label Text="Chart Update Interval (seconds)" FontSize="18"/>
+            <Slider Minimum="1" Maximum="10" Value="{Binding UpdateIntervalSeconds}" />
+            <Label Text="{Binding UpdateIntervalSeconds, StringFormat='Current: {0}s'}" FontSize="16" TextColor="Gray"/>
+
+            <!-- Theme -->
+            <StackLayout Orientation="Horizontal" Spacing="10">
+                <Label Text="Dark Theme" FontSize="18"/>
+                <Switch IsToggled="{Binding IsDarkTheme}" />
+            </StackLayout>
+
+            <!-- Simulation -->
+            <StackLayout Orientation="Horizontal" Spacing="10">
+                <Label Text="Enable Device Simulation" FontSize="18"/>
+                <Switch IsToggled="{Binding EnableSimulation}" />
+            </StackLayout>
+
+            <Button Text="💾 Save Settings"
+                    Command="{Binding SaveCommand}"
+                    BackgroundColor="#512BD4"
+                    TextColor="White"
+                    CornerRadius="20"
+                    HeightRequest="50"
+                    Margin="0,20,0,0"/>
+
+            <Button Text="🔙 Back"
+                    Command="{Binding GoBackCommand}"
+                    BackgroundColor="#888"
+                    TextColor="White"
+                    CornerRadius="20"
+                    HeightRequest="50"/>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
