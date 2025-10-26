@@ -5,6 +5,7 @@ using System.Timers;
 using SmartHomeDashboardP.Models;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using SmartHomeDashboardP.Services;
 
 namespace SmartHomeDashboardP.ViewModels;
 
@@ -19,8 +20,11 @@ public partial class MainViewModel : ObservableObject
 
     public ObservableCollection<SmartDevice> Devices { get; } = new();
 
+
     private readonly List<EnergyRecord> _energyHistory = new();
     public IReadOnlyList<EnergyRecord> EnergyHistory => _energyHistory.AsReadOnly();
+    
+    private readonly EnergyHistoryService _historyService = new();
 
     private readonly System.Timers.Timer _updateTimer;
     private readonly Random _rand = new();
@@ -29,6 +33,7 @@ public partial class MainViewModel : ObservableObject
     {
         try
         {
+            _energyHistory = _historyService.LoadHistory();
             // ✅ Initialize devices
             Devices.Add(new SmartDevice { Name = "Living Room Light", Status = "Off", Icon = "💡" , Category="Lighting", PowerUsage=40});
             Devices.Add(new SmartDevice { Name = "Thermostat", Status = "22°C", Icon = "🌡️", Category="Climate", PowerUsage=60 });
@@ -124,6 +129,7 @@ public partial class MainViewModel : ObservableObject
             // ✅ Keep list size manageable (e.g., last 50 data points)
             if (_energyHistory.Count > 50)
                 _energyHistory.RemoveAt(0);
+            _historyService.SaveHistory(_energyHistory);
 
             var entries = new[]
             {

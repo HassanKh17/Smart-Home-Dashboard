@@ -28,15 +28,22 @@
         <member name="T:SmartHomeDashboardP.ViewModels.EnergyHistoryViewModel">
             <inheritdoc/>
             <inheritdoc/>
+            <inheritdoc/>
         </member>
         <member name="P:SmartHomeDashboardP.ViewModels.EnergyHistoryViewModel.EnergyHistoryChart">
-            <inheritdoc cref="F:SmartHomeDashboardP.ViewModels.EnergyHistoryViewModel._energyHistoryChart"/>
+            <inheritdoc cref="F:SmartHomeDashboardP.ViewModels.EnergyHistoryViewModel.energyHistoryChart"/>
         </member>
         <member name="F:SmartHomeDashboardP.ViewModels.EnergyHistoryViewModel.goBackCommand">
             <summary>The backing field for <see cref="P:SmartHomeDashboardP.ViewModels.EnergyHistoryViewModel.GoBackCommand"/>.</summary>
         </member>
         <member name="P:SmartHomeDashboardP.ViewModels.EnergyHistoryViewModel.GoBackCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:SmartHomeDashboardP.ViewModels.EnergyHistoryViewModel.GoBack"/>.</summary>
+        </member>
+        <member name="F:SmartHomeDashboardP.ViewModels.EnergyHistoryViewModel.clearHistoryCommand">
+            <summary>The backing field for <see cref="P:SmartHomeDashboardP.ViewModels.EnergyHistoryViewModel.ClearHistoryCommand"/>.</summary>
+        </member>
+        <member name="P:SmartHomeDashboardP.ViewModels.EnergyHistoryViewModel.ClearHistoryCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:SmartHomeDashboardP.ViewModels.EnergyHistoryViewModel.ClearHistory"/>.</summary>
         </member>
         <member name="T:SmartHomeDashboardP.ViewModels.MainViewModel">
             <inheritdoc/>
