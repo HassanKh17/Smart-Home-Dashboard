@@ -25,6 +25,7 @@
                                 <Label Text="{Binding Name}" FontSize="18" TextColor="White" HorizontalOptions="Center"/>
                                 <Label Text="{Binding Status}" FontSize="14" TextColor="LightGray" HorizontalOptions="Center"/>
                                 <Button Text="Toggle" Command="{Binding ToggleCommand}" BackgroundColor="#673AB7" TextColor="White"/>
+                                
                             </VerticalStackLayout>
                         </Frame>
                     </DataTemplate>
@@ -35,6 +36,10 @@
             <Frame BackgroundColor="#333" CornerRadius="25" Padding="10" HeightRequest="250">
                 <microcharts:ChartView Chart="{Binding EnergyUsageChart}" />
             </Frame>
+            <Button Text="⚙️ Settings" Command="{Binding GoToSettingsCommand}" BackgroundColor="#512BD4" TextColor="White" CornerRadius="20" />
+
+            <Button Text="📈 View Energy History" Command="{Binding GoToHistoryCommand}" BackgroundColor="#007ACC" TextColor="White"  FontSize="18" CornerRadius="20" HeightRequest="50" Margin="0,5,0,20" HorizontalOptions="Center" WidthRequest="250"/>
+
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

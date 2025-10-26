@@ -19,6 +19,9 @@ public partial class MainViewModel : ObservableObject
 
     public ObservableCollection<SmartDevice> Devices { get; } = new();
 
+    private readonly List<EnergyRecord> _energyHistory = new();
+    public IReadOnlyList<EnergyRecord> EnergyHistory => _energyHistory.AsReadOnly();
+
     private readonly System.Timers.Timer _updateTimer;
     private readonly Random _rand = new();
 
@@ -27,9 +30,9 @@ public partial class MainViewModel : ObservableObject
         try
         {
             // ✅ Initialize devices
-            Devices.Add(new SmartDevice { Name = "Living Room Light", Status = "Off", Icon = "💡" });
-            Devices.Add(new SmartDevice { Name = "Thermostat", Status = "22°C", Icon = "🌡️" });
-            Devices.Add(new SmartDevice { Name = "Front Door Lock", Status = "Locked", Icon = "🔒" });
+            Devices.Add(new SmartDevice { Name = "Living Room Light", Status = "Off", Icon = "💡" , Category="Lighting", PowerUsage=40});
+            Devices.Add(new SmartDevice { Name = "Thermostat", Status = "22°C", Icon = "🌡️", Category="Climate", PowerUsage=60 });
+            Devices.Add(new SmartDevice { Name = "Front Door Lock", Status = "Locked", Icon = "🔒", Category="Security", PowerUsage=5 });
 
             // ✅ Wire toggle commands
             foreach (var device in Devices)
@@ -112,6 +115,16 @@ public partial class MainViewModel : ObservableObject
             int locks = Devices.Count(d => d.Name.Contains("Lock") && d.Status == "Unlocked") * 5;
             int total = baseLoad + lights + thermostat + locks + _rand.Next(0, 30);
 
+            _energyHistory.Add(new EnergyRecord
+            {
+                Timestamp = DateTime.Now,
+                TotalWatts = total
+            });
+
+            // ✅ Keep list size manageable (e.g., last 50 data points)
+            if (_energyHistory.Count > 50)
+                _energyHistory.RemoveAt(0);
+
             var entries = new[]
             {
                 new ChartEntry(baseLoad){ Label="Base", ValueLabel=$"{baseLoad}W", Color=SKColor.Parse("#90CAF9") },
@@ -147,4 +160,18 @@ public partial class MainViewModel : ObservableObject
             Console.WriteLine($"[Navigation Error] {ex.Message}");
         }
     }
+
+    [RelayCommand]
+    private async Task GoToHistory()
+    {
+        try
+        {
+            await Shell.Current.GoToAsync(nameof(Views.EnergyHistoryPage));
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"[Navigation Error] {ex.Message}");
+        }
+    }
+
 }

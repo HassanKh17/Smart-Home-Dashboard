@@ -1,0 +1,37 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:SmartHomeDashboardP.ViewModels"
+             xmlns:microcharts="clr-namespace:Microcharts.Maui;assembly=Microcharts.Maui"
+             x:Class="SmartHomeDashboardP.Views.EnergyHistoryPage"
+             Title="Energy History">
+
+    <ContentPage.BindingContext>
+        <viewmodels:EnergyHistoryViewModel />
+    </ContentPage.BindingContext>
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+
+            <Label Text="📊 Energy Usage Over Time"
+                   FontSize="26"
+                   TextColor="DodgerBlue"
+                   HorizontalOptions="Center" />
+
+            <Frame BackgroundColor="#333" CornerRadius="25" Padding="10" HeightRequest="250">
+                <microcharts:ChartView Chart="{Binding EnergyHistoryChart}" />
+            </Frame>
+
+            <Button Text="🔙 Back to Dashboard"
+                    Command="{Binding GoBackCommand}"
+                    BackgroundColor="#512BD4"
+                    TextColor="White"
+                    FontSize="18"
+                    CornerRadius="20"
+                    HeightRequest="50"
+                    Margin="0,20,0,0"
+                    HorizontalOptions="Center"
+                    WidthRequest="250" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

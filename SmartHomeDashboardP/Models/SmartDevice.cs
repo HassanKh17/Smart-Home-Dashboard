@@ -22,5 +22,11 @@ public partial class SmartDevice : ObservableObject
     [ObservableProperty]
     private string status = string.Empty;
 
+    [ObservableProperty]
+    private  int powerUsage;
+
+    [ObservableProperty]
+    private string category = string.Empty;
+
     public IRelayCommand? ToggleCommand { get; set; }
 }

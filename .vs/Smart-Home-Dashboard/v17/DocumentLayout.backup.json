@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|c:\\users\\lunap\\downloads\\smart-home-dashboard\\smarthomedashboardp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|solutionrelative:smarthomedashboardp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|c:\\users\\lunap\\downloads\\smart-home-dashboard\\smarthomedashboardp\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|solutionrelative:smarthomedashboardp\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|c:\\users\\lunap\\downloads\\smart-home-dashboard\\smarthomedashboardp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|solutionrelative:smarthomedashboardp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|c:\\users\\lunap\\downloads\\smart-home-dashboard\\smarthomedashboardp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|solutionrelative:smarthomedashboardp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|c:\\users\\lunap\\downloads\\smart-home-dashboard\\smarthomedashboardp\\views\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|solutionrelative:smarthomedashboardp\\views\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|c:\\users\\lunap\\downloads\\smart-home-dashboard\\smarthomedashboardp\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,8 +27,40 @@
       "RelativeMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|solutionrelative:smarthomedashboardp\\views\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|c:\\users\\lunap\\downloads\\smart-home-dashboard\\smarthomedashboardp\\views\\energyhistorypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|solutionrelative:smarthomedashboardp\\views\\energyhistorypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|c:\\users\\lunap\\downloads\\smart-home-dashboard\\smarthomedashboardp\\views\\energyhistorypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|solutionrelative:smarthomedashboardp\\views\\energyhistorypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|c:\\users\\lunap\\downloads\\smart-home-dashboard\\smarthomedashboardp\\views\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|solutionrelative:smarthomedashboardp\\views\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|c:\\users\\lunap\\downloads\\smart-home-dashboard\\smarthomedashboardp\\views\\settingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|solutionrelative:smarthomedashboardp\\views\\settingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|c:\\users\\lunap\\downloads\\smart-home-dashboard\\smarthomedashboardp\\viewmodels\\energyhistoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|solutionrelative:smarthomedashboardp\\viewmodels\\energyhistoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|c:\\users\\lunap\\downloads\\smart-home-dashboard\\smarthomedashboardp\\models\\energyrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|solutionrelative:smarthomedashboardp\\models\\energyrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|c:\\users\\lunap\\downloads\\smart-home-dashboard\\smarthomedashboardp\\services\\devicesimulationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|solutionrelative:smarthomedashboardp\\services\\devicesimulationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|c:\\users\\lunap\\downloads\\smart-home-dashboard\\smarthomedashboardp\\models\\smartdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|solutionrelative:smarthomedashboardp\\models\\smartdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|c:\\users\\lunap\\downloads\\smart-home-dashboard\\smarthomedashboardp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|solutionrelative:smarthomedashboardp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|c:\\users\\lunap\\downloads\\smart-home-dashboard\\smarthomedashboardp\\models\\lightdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,32 +75,8 @@
       "RelativeMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|solutionrelative:smarthomedashboardp\\models\\thermostatdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|c:\\users\\lunap\\downloads\\smart-home-dashboard\\smarthomedashboardp\\views\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|solutionrelative:smarthomedashboardp\\views\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|c:\\users\\lunap\\downloads\\smart-home-dashboard\\smarthomedashboardp\\views\\settingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|solutionrelative:smarthomedashboardp\\views\\settingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|c:\\users\\lunap\\downloads\\smart-home-dashboard\\smarthomedashboardp\\services\\devicesimulationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|solutionrelative:smarthomedashboardp\\services\\devicesimulationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|c:\\users\\lunap\\downloads\\smart-home-dashboard\\smarthomedashboardp\\models\\lockdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|solutionrelative:smarthomedashboardp\\models\\lockdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|c:\\users\\lunap\\downloads\\smart-home-dashboard\\smarthomedashboardp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|solutionrelative:smarthomedashboardp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|c:\\users\\lunap\\downloads\\smart-home-dashboard\\smarthomedashboardp\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|solutionrelative:smarthomedashboardp\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|c:\\users\\lunap\\downloads\\smart-home-dashboard\\smarthomedashboardp\\views\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{49530FBF-D51E-572C-006D-5FC5B696C994}|SmartHomeDashboardP\\SmartHomeDashboardP.csproj|solutionrelative:smarthomedashboardp\\views\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,33 +102,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "SmartHomeDashboardP\\MauiProgram.cs",
-              "ToolTip": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\MauiProgram.cs",
-              "RelativeToolTip": "SmartHomeDashboardP\\MauiProgram.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAQwCAAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T23:12:07.502Z",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\App.xaml",
+              "RelativeDocumentMoniker": "SmartHomeDashboardP\\App.xaml",
+              "ToolTip": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\App.xaml",
+              "RelativeToolTip": "SmartHomeDashboardP\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-26T18:35:08.989Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\AppShell.xaml",
+              "RelativeDocumentMoniker": "SmartHomeDashboardP\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\AppShell.xaml",
+              "RelativeToolTip": "SmartHomeDashboardP\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-18T23:11:06.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "SmartHomeDashboardP\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\AppShell.xaml.cs",
+              "RelativeToolTip": "SmartHomeDashboardP\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T23:38:23.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\ViewModels\\MainViewModel.cs",
               "RelativeDocumentMoniker": "SmartHomeDashboardP\\ViewModels\\MainViewModel.cs",
               "ToolTip": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\ViewModels\\MainViewModel.cs",
               "RelativeToolTip": "SmartHomeDashboardP\\ViewModels\\MainViewModel.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAIAwwIcAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAJUAAAAAAAAAAADwv6EAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-18T22:59:23.662Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "DashboardPage.xaml",
+              "DocumentMoniker": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\Views\\DashboardPage.xaml",
+              "RelativeDocumentMoniker": "SmartHomeDashboardP\\Views\\DashboardPage.xaml",
+              "ToolTip": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\Views\\DashboardPage.xaml",
+              "RelativeToolTip": "SmartHomeDashboardP\\Views\\DashboardPage.xaml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAIwCwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-18T23:02:03.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "DashboardPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\Views\\DashboardPage.xaml.cs",
               "RelativeDocumentMoniker": "SmartHomeDashboardP\\Views\\DashboardPage.xaml.cs",
@@ -121,72 +180,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SmartDevice.cs",
-              "DocumentMoniker": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\Models\\SmartDevice.cs",
-              "RelativeDocumentMoniker": "SmartHomeDashboardP\\Models\\SmartDevice.cs",
-              "ToolTip": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\Models\\SmartDevice.cs",
-              "RelativeToolTip": "SmartHomeDashboardP\\Models\\SmartDevice.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAiwBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T18:35:26.19Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LightDevice.cs",
-              "DocumentMoniker": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\Models\\LightDevice.cs",
-              "RelativeDocumentMoniker": "SmartHomeDashboardP\\Models\\LightDevice.cs",
-              "ToolTip": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\Models\\LightDevice.cs",
-              "RelativeToolTip": "SmartHomeDashboardP\\Models\\LightDevice.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T18:37:18.556Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SmartHomeDashboardP.csproj",
-              "DocumentMoniker": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\SmartHomeDashboardP.csproj",
-              "RelativeDocumentMoniker": "SmartHomeDashboardP\\SmartHomeDashboardP.csproj",
-              "ToolTip": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\SmartHomeDashboardP.csproj",
-              "RelativeToolTip": "SmartHomeDashboardP\\SmartHomeDashboardP.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-18T22:33:42.623Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ThermostatDevice.cs",
-              "DocumentMoniker": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\Models\\ThermostatDevice.cs",
-              "RelativeDocumentMoniker": "SmartHomeDashboardP\\Models\\ThermostatDevice.cs",
-              "ToolTip": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\Models\\ThermostatDevice.cs",
-              "RelativeToolTip": "SmartHomeDashboardP\\Models\\ThermostatDevice.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Title": "EnergyHistoryPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\Views\\EnergyHistoryPage.xaml.cs",
+              "RelativeDocumentMoniker": "SmartHomeDashboardP\\Views\\EnergyHistoryPage.xaml.cs",
+              "ToolTip": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\Views\\EnergyHistoryPage.xaml.cs",
+              "RelativeToolTip": "SmartHomeDashboardP\\Views\\EnergyHistoryPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T18:38:11.857Z",
+              "WhenOpened": "2025-10-26T18:18:54.266Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "DashboardPage.xaml",
-              "DocumentMoniker": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\Views\\DashboardPage.xaml",
-              "RelativeDocumentMoniker": "SmartHomeDashboardP\\Views\\DashboardPage.xaml",
-              "ToolTip": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\Views\\DashboardPage.xaml",
-              "RelativeToolTip": "SmartHomeDashboardP\\Views\\DashboardPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "Title": "EnergyHistoryPage.xaml",
+              "DocumentMoniker": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\Views\\EnergyHistoryPage.xaml",
+              "RelativeDocumentMoniker": "SmartHomeDashboardP\\Views\\EnergyHistoryPage.xaml",
+              "ToolTip": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\Views\\EnergyHistoryPage.xaml",
+              "RelativeToolTip": "SmartHomeDashboardP\\Views\\EnergyHistoryPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-18T23:02:03.63Z",
+              "WhenOpened": "2025-10-26T17:37:01.763Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
+              "Title": "EnergyRecord.cs",
+              "DocumentMoniker": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\Models\\EnergyRecord.cs",
+              "RelativeDocumentMoniker": "SmartHomeDashboardP\\Models\\EnergyRecord.cs",
+              "ToolTip": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\Models\\EnergyRecord.cs",
+              "RelativeToolTip": "SmartHomeDashboardP\\Models\\EnergyRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T16:44:49.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "SettingsPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\Views\\SettingsPage.xaml.cs",
               "RelativeDocumentMoniker": "SmartHomeDashboardP\\Views\\SettingsPage.xaml.cs",
@@ -199,59 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DeviceSimulationService.cs",
-              "DocumentMoniker": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\Services\\DeviceSimulationService.cs",
-              "RelativeDocumentMoniker": "SmartHomeDashboardP\\Services\\DeviceSimulationService.cs",
-              "ToolTip": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\Services\\DeviceSimulationService.cs",
-              "RelativeToolTip": "SmartHomeDashboardP\\Services\\DeviceSimulationService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T18:40:33.371Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LockDevice.cs",
-              "DocumentMoniker": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\Models\\LockDevice.cs",
-              "RelativeDocumentMoniker": "SmartHomeDashboardP\\Models\\LockDevice.cs",
-              "ToolTip": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\Models\\LockDevice.cs",
-              "RelativeToolTip": "SmartHomeDashboardP\\Models\\LockDevice.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T18:38:56.25Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\AppShell.xaml",
-              "RelativeDocumentMoniker": "SmartHomeDashboardP\\AppShell.xaml",
-              "ToolTip": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\AppShell.xaml",
-              "RelativeToolTip": "SmartHomeDashboardP\\AppShell.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-18T23:11:06.716Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AppShell.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\AppShell.xaml.cs",
-              "RelativeDocumentMoniker": "SmartHomeDashboardP\\AppShell.xaml.cs",
-              "ToolTip": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\AppShell.xaml.cs",
-              "RelativeToolTip": "SmartHomeDashboardP\\AppShell.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T23:38:23.837Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 8,
               "Title": "SettingsPage.xaml",
               "DocumentMoniker": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\Views\\SettingsPage.xaml",
               "RelativeDocumentMoniker": "SmartHomeDashboardP\\Views\\SettingsPage.xaml",
@@ -260,6 +241,110 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-18T23:09:35.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EnergyHistoryViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\ViewModels\\EnergyHistoryViewModel.cs",
+              "RelativeDocumentMoniker": "SmartHomeDashboardP\\ViewModels\\EnergyHistoryViewModel.cs",
+              "ToolTip": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\ViewModels\\EnergyHistoryViewModel.cs",
+              "RelativeToolTip": "SmartHomeDashboardP\\ViewModels\\EnergyHistoryViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T17:43:45.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DeviceSimulationService.cs",
+              "DocumentMoniker": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\Services\\DeviceSimulationService.cs",
+              "RelativeDocumentMoniker": "SmartHomeDashboardP\\Services\\DeviceSimulationService.cs",
+              "ToolTip": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\Services\\DeviceSimulationService.cs",
+              "RelativeToolTip": "SmartHomeDashboardP\\Services\\DeviceSimulationService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T18:40:33.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SmartDevice.cs",
+              "DocumentMoniker": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\Models\\SmartDevice.cs",
+              "RelativeDocumentMoniker": "SmartHomeDashboardP\\Models\\SmartDevice.cs",
+              "ToolTip": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\Models\\SmartDevice.cs",
+              "RelativeToolTip": "SmartHomeDashboardP\\Models\\SmartDevice.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T18:35:26.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "SmartHomeDashboardP\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\MauiProgram.cs",
+              "RelativeToolTip": "SmartHomeDashboardP\\MauiProgram.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAQwB0AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T23:12:07.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LightDevice.cs",
+              "DocumentMoniker": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\Models\\LightDevice.cs",
+              "RelativeDocumentMoniker": "SmartHomeDashboardP\\Models\\LightDevice.cs",
+              "ToolTip": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\Models\\LightDevice.cs",
+              "RelativeToolTip": "SmartHomeDashboardP\\Models\\LightDevice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T18:37:18.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SmartHomeDashboardP.csproj",
+              "DocumentMoniker": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\SmartHomeDashboardP.csproj",
+              "RelativeDocumentMoniker": "SmartHomeDashboardP\\SmartHomeDashboardP.csproj",
+              "ToolTip": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\SmartHomeDashboardP.csproj",
+              "RelativeToolTip": "SmartHomeDashboardP\\SmartHomeDashboardP.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-18T22:33:42.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ThermostatDevice.cs",
+              "DocumentMoniker": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\Models\\ThermostatDevice.cs",
+              "RelativeDocumentMoniker": "SmartHomeDashboardP\\Models\\ThermostatDevice.cs",
+              "ToolTip": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\Models\\ThermostatDevice.cs",
+              "RelativeToolTip": "SmartHomeDashboardP\\Models\\ThermostatDevice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T18:38:11.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LockDevice.cs",
+              "DocumentMoniker": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\Models\\LockDevice.cs",
+              "RelativeDocumentMoniker": "SmartHomeDashboardP\\Models\\LockDevice.cs",
+              "ToolTip": "C:\\Users\\lunap\\Downloads\\Smart-Home-Dashboard\\SmartHomeDashboardP\\Models\\LockDevice.cs",
+              "RelativeToolTip": "SmartHomeDashboardP\\Models\\LockDevice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T18:38:56.25Z",
               "EditorCaption": ""
             }
           ]

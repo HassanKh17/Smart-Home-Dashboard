@@ -19,7 +19,27 @@
         <member name="P:SmartHomeDashboardP.Models.SmartDevice.Status">
             <inheritdoc cref="F:SmartHomeDashboardP.Models.SmartDevice.status"/>
         </member>
+        <member name="P:SmartHomeDashboardP.Models.SmartDevice.PowerUsage">
+            <inheritdoc cref="F:SmartHomeDashboardP.Models.SmartDevice.powerUsage"/>
+        </member>
+        <member name="P:SmartHomeDashboardP.Models.SmartDevice.Category">
+            <inheritdoc cref="F:SmartHomeDashboardP.Models.SmartDevice.category"/>
+        </member>
+        <member name="T:SmartHomeDashboardP.ViewModels.EnergyHistoryViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:SmartHomeDashboardP.ViewModels.EnergyHistoryViewModel.EnergyHistoryChart">
+            <inheritdoc cref="F:SmartHomeDashboardP.ViewModels.EnergyHistoryViewModel._energyHistoryChart"/>
+        </member>
+        <member name="F:SmartHomeDashboardP.ViewModels.EnergyHistoryViewModel.goBackCommand">
+            <summary>The backing field for <see cref="P:SmartHomeDashboardP.ViewModels.EnergyHistoryViewModel.GoBackCommand"/>.</summary>
+        </member>
+        <member name="P:SmartHomeDashboardP.ViewModels.EnergyHistoryViewModel.GoBackCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:SmartHomeDashboardP.ViewModels.EnergyHistoryViewModel.GoBack"/>.</summary>
+        </member>
         <member name="T:SmartHomeDashboardP.ViewModels.MainViewModel">
+            <inheritdoc/>
             <inheritdoc/>
             <inheritdoc/>
         </member>
@@ -34,6 +54,12 @@
         </member>
         <member name="P:SmartHomeDashboardP.ViewModels.MainViewModel.GoToSettingsCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:SmartHomeDashboardP.ViewModels.MainViewModel.GoToSettings"/>.</summary>
+        </member>
+        <member name="F:SmartHomeDashboardP.ViewModels.MainViewModel.goToHistoryCommand">
+            <summary>The backing field for <see cref="P:SmartHomeDashboardP.ViewModels.MainViewModel.GoToHistoryCommand"/>.</summary>
+        </member>
+        <member name="P:SmartHomeDashboardP.ViewModels.MainViewModel.GoToHistoryCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:SmartHomeDashboardP.ViewModels.MainViewModel.GoToHistory"/>.</summary>
         </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
             <summary>
@@ -52,6 +78,15 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Status">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Status" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.PowerUsage">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "PowerUsage" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Category">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Category" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.EnergyHistoryChart">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "EnergyHistoryChart" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Title">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Title" generated properties.</summary>
@@ -76,6 +111,15 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Status">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Status" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.PowerUsage">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "PowerUsage" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Category">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Category" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.EnergyHistoryChart">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "EnergyHistoryChart" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Title">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Title" generated properties.</summary>

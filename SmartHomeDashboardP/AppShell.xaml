@@ -10,5 +10,7 @@
 
     <ShellContent Title="Dashboard" ContentTemplate="{DataTemplate views:DashboardPage}" />
     <ShellContent Title="Settings" ContentTemplate="{DataTemplate views:SettingsPage}" />
+    <ShellContent Title="EnergyHistoryPage" ContentTemplate="{DataTemplate views:EnergyHistoryPage}" />
+
 
 </Shell>
