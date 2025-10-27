@@ -56,7 +56,7 @@ public partial class EnergyHistoryViewModel : ObservableObject
                 Label = reducedRecords.Contains(r)
                     ? r.Timestamp.ToString("HH:mm:ss")
                     : string.Empty, // only label some points
-                ValueLabel = reducedRecords.Contains(r) ? $"{r.TotalWatts}W" : string.Empty,
+                ValueLabel = string.Empty,
                 Color = SKColor.Parse("#42A5F5"),
                 TextColor = SKColor.Parse("#1E88E5")
             }).ToArray();

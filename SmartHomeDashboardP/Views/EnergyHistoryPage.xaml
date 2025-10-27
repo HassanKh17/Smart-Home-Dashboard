@@ -17,9 +17,52 @@
                    TextColor="DodgerBlue"
                    HorizontalOptions="Center" />
 
-            <Frame BackgroundColor="#333" CornerRadius="25" Padding="10" HeightRequest="250">
-                <microcharts:ChartView Chart="{Binding EnergyHistoryChart}" />
+            <Frame
+                BackgroundColor="Transparent"
+                CornerRadius="25"
+                Padding="0"
+                HeightRequest="300">
+
+                <AbsoluteLayout>
+
+                    <!-- Chart -->
+                    <microcharts:ChartView
+                        x:Name="HistoryChartView"
+                        Chart="{Binding EnergyHistoryChart}"
+                        BackgroundColor="Transparent"
+                        AbsoluteLayout.LayoutBounds="0,0,1,1"
+                        AbsoluteLayout.LayoutFlags="All" /> 
+
+                    <!-- Cursor dot -->
+                    <BoxView
+                        x:Name="CursorDot"
+                        WidthRequest="8"
+                        HeightRequest="8"
+                        CornerRadius="4"
+                        Color="#1E88E5"
+                        IsVisible="False"
+                        AbsoluteLayout.LayoutFlags="None" />
+
+                    <!-- Tooltip -->
+                    <Frame
+                        x:Name="TooltipFrame"
+                        Padding="6,4"
+                        CornerRadius="6"
+                        BackgroundColor="#CC1E88E5"
+                        IsVisible="False"
+                        HasShadow="False"
+                        AbsoluteLayout.LayoutFlags="None">
+
+                        <Label
+                            x:Name="TooltipLabel"
+                            TextColor="White"
+                            FontSize="12"
+                            VerticalOptions="Center" />
+                    </Frame>
+
+                </AbsoluteLayout>
             </Frame>
+
 
             <Button Text="🔙 Back to Dashboard"
                     Command="{Binding GoBackCommand}"
