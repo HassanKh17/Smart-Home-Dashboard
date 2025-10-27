@@ -1,1 +1,0 @@
-C:\Users\lunap\Downloads\Smart-Home-Dashboard\SmartHomeDashboardP\SmartHomeDashboardP.csproj;x64
